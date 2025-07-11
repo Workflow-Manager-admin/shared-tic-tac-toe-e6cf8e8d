@@ -28,6 +28,10 @@
   min-height: 100vh;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+/* For tictactoe-app isolation: prevent inheritance of backgrounds in game component if present */
+.tictactoe-app {
+  background: none;
+}
 
 .App-logo {
   height: 40vmin;
